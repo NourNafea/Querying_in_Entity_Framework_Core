@@ -6,4 +6,5 @@
 
 Entity Framework Core supports eager loading of related entities, same as EF 6, using the `Include()` extension method and projection query. In addition to this, it also provides the `ThenInclude()` extension method to load multiple levels of related entities.
 
+
 `FirstOrDefault()`  Returns first element of a sequence, or a default value if no element is found. It throws an error Only if the source is null.
