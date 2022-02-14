@@ -1,7 +1,7 @@
 # Querying in Entity Framework Core  <img src="https://media.giphy.com/media/dYsB5F09z0fYvQLm9K/giphy.gif" width="60">
 ##### EF Core has a new feature in LINQ-to-Entities where we can include C# or VB.NET functions in the query. This was not possible in EF 6.
 
-###### Here are the top 10 LINQ methods we use in our everyday C# Development
+## Here are the top 10 LINQ methods we use in our everyday C# Development
 
 1️⃣ `First()`  Returns the "first" element in the collection, for an optional condition. If a condition is passed to the function as a predicate, the method returns the first element in the list which satisfies the predicate function. If no elements satisfy the condition, it throws an exception.
 
