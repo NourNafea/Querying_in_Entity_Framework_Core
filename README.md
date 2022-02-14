@@ -7,4 +7,4 @@ Entity Framework Core supports eager loading of related entities, same as EF 6, 
 
 🔴`FirstOrDefault()`  Works in a similar fashion as the First() method for positive cases in a collection - it returns the first element in the collection which satisfy an optional condition. The difference is in the negative case where there are no elements that satisfy the condition or the collection is empty - the method returns the default value for that type: NULL for reference types and respective default value for value types.
 
-🔴``
+🔴`Single()`  Returns the only element in the collection which satisfies a given condition. The rule is that there should be only a single element in the collection which satisfies the condition - for example a primary key in a table which is one and unique. If there are more than one elements which satisfy the condition for the Single() method, it throws an exception.
