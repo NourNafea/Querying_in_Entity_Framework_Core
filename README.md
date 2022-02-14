@@ -19,6 +19,6 @@
 
 8️⃣ `OrderBy()` Sorts the elements in a given collection in ascending order based on a given condition and returns the sorted collection. If we have to sort a collection of complex types based on more than one property of the elements, we can do so by chaining another function to OrderBy() called ThenBy().
 
-9️⃣ ``
+9️⃣ `OrderByDescending()` Similar to OrderBy() method, except that the collection is sorted in a descending order.
 
-🔟 ``
+🔟 `ToList()` Takes in an IEnumerable type and converts it to a List type. This conversion is important in cases where we would want to use a concrete type "List" in place of an abstract "IEnumerable" or when we want to use the methods available in a "List" type over a collection of an abstract type.
