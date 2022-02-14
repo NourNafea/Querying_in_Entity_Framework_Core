@@ -10,3 +10,5 @@ Entity Framework Core supports eager loading of related entities, same as EF 6, 
 🔴`Single()`  Returns the only element in the collection which satisfies a given condition. The rule is that there should be only a single element in the collection which satisfies the condition - for example a primary key in a table which is one and unique. If there are more than one elements which satisfy the condition for the Single() method, it throws an exception.
 
 🔴`SingleOrDefault()` Works similar to Single() method in the positive case - returns the only element which satisfies a given condition. But when this condition returns more than one element or the collection is empty, the method returns a default value - NULL for a reference type and respective default value for a value type.
+
+🔴`Any()` Returns a boolen value. The method just returns if there exists any element in the collection, which satisfies an optional condition. If no condition is provided, the method just returns if the collection is empty or not.
